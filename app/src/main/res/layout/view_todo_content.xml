@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_view_todo"
+    android:padding="@dimen/main_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/title"
+            android:textSize="@dimen/title_size_1"
+            android:textColor="@color/colorPastelBlack"/>
+
+        <TextView
+            android:hint="TODO TILTE!"
+            android:id="@+id/view_todo_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/title_size_1"
+            android:textColor="@color/textHighlight_BLACK"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/view_todo_time"
+            android:text="mm-dd hh:mm"
+            android:textSize="@dimen/title_size_4"
+            android:textColor="@color/colorPastelBlack"
+            android:layout_marginRight="@dimen/lst_side_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"/>
+
+    </LinearLayout>
+
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/highlight"-->
+<!--        android:textColor="@color/colorPastelBlack"-->
+<!--        android:textSize="@dimen/title_size_4"/>-->
+
+
+<!--    <RadioGroup-->
+<!--        android:id="@+id/view_todo_highlight"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="@dimen/radio_btn_margin">-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/highlight_black"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="@dimen/radio_btn_margin"-->
+<!--            android:buttonTint="@color/textHighlight_BLACK"-->
+<!--            android:checked="true"/>-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/highlight_red"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="@dimen/radio_btn_margin"-->
+<!--            android:buttonTint="@color/textHighlight_RED"/>-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/highlight_yellow"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="@dimen/radio_btn_margin"-->
+<!--            android:buttonTint="@color/textHighlight_YELLOW"/>-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/highlight_green"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="@dimen/radio_btn_margin"-->
+<!--            android:buttonTint="@color/textHighlight_GREEN"/>-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/highlight_white_blue"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="@dimen/radio_btn_margin"-->
+<!--            android:buttonTint="@color/textHighlight_WHITEBLUE"/>-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/highlight_blue"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="@dimen/radio_btn_margin"-->
+<!--            android:buttonTint="@color/textHighlight_BLUE"/>-->
+<!--        <RadioButton-->
+<!--            android:id="@+id/highlight_purple"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="@dimen/radio_btn_margin"-->
+<!--            android:buttonTint="@color/textHighlight_PUPLUE"/>-->
+
+<!--    </RadioGroup>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:textColor="@color/colorPastelBlack"
+        android:textSize="@dimen/title_size_3"/>
+
+    <TextView
+        android:id="@+id/view_todo_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="150dp"
+        android:maxHeight="400dp"
+        android:gravity="left|top"
+        android:hint="Write ToDo Description!"
+        android:textSize="@dimen/title_size_3"
+        android:isScrollContainer="true"/>
+</LinearLayout>

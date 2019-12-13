@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="main_padding">10dp</dimen>
+    <dimen name="about_margin">10dp</dimen>
+    <dimen name="title_size_1">30sp</dimen>
+    <dimen name="title_size_2">25sp</dimen>
+    <dimen name="title_size_3">20sp</dimen>
+    <dimen name="title_size_4">15sp</dimen>
+    <dimen name="title_size_5">10sp</dimen>
+    <dimen name="lst_top_margin">25dp</dimen>
+    <dimen name="lst_side_margin">15dp</dimen>
+    <dimen name="radio_btn_margin">5dp</dimen>
+</resources>

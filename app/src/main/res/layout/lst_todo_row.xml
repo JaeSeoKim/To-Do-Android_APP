@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackground"
+    android:onClick="onClickedToDoView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/lst_top_margin">
+
+        <TextView
+            android:id="@+id/view_task_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Title"
+            android:textSize="@dimen/title_size_1"
+            android:layout_marginLeft="@dimen/lst_side_margin"/>
+
+        <CheckBox
+            android:id="@+id/view_task_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/check_box_button"
+            android:layout_marginRight="@dimen/lst_side_margin"
+            android:button="@null"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/view_task_id"
+        android:text="id"
+        android:textSize="0dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        />
+
+    <TextView
+        android:id="@+id/view_task_time_stamp"
+        android:text="mm-dd hh:mm"
+        android:textSize="@dimen/title_size_5"
+        android:textColor="@color/colorPastelBlack"
+        android:layout_marginLeft="@dimen/lst_side_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

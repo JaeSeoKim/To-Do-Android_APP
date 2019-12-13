@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d8e9ef</color>
+    <color name="colorPrimaryDark">#4ea1d3</color>
+    <color name="colorAccent">#FFF1AC</color>]
+    <color name="colorPastelBlack">#454552</color>
+    <color name="colorBackground">#FFFFFF</color>
+
+<!--  text 컬러 처리용 -->
+    <color name="textHighlight_RED">#F5A9A9</color>
+    <color name="textHighlight_YELLOW">#F2F5A9</color>
+    <color name="textHighlight_GREEN">#BCF5A9</color>
+    <color name="textHighlight_WHITEBLUE">#A9F5F2</color>
+    <color name="textHighlight_BLUE">#A9BCF5</color>
+    <color name="textHighlight_PUPLUE">#F5A9F2</color>
+    <color name="textHighlight_BLACK">#454552</color>
+
+</resources>
